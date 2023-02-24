@@ -11,6 +11,7 @@
 		4C3D36BC29A8213F00F35034 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D36BB29A8213F00F35034 /* ContentView.swift */; };
 		4C3D36BE29A8214000F35034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D36BD29A8214000F35034 /* Assets.xcassets */; };
 		4C3D36C129A8214000F35034 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D36C029A8214000F35034 /* Preview Assets.xcassets */; };
+		4C3D36C829A82F2800F35034 /* Better.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D36C729A82F2700F35034 /* Better.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		4C3D36BB29A8213F00F35034 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C3D36BD29A8214000F35034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C3D36C029A8214000F35034 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C3D36C729A82F2700F35034 /* Better.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Better.mlmodel; path = ../../../Better.mlmodel; sourceTree = "<group>"; };
+		4C3D36C929A82F2F00F35034 /* Better.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Better.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +57,7 @@
 				4C3D36B929A8213F00F35034 /* BetterRestApp.swift */,
 				4C3D36BB29A8213F00F35034 /* ContentView.swift */,
 				4C3D36BD29A8214000F35034 /* Assets.xcassets */,
+				4C3D36C929A82F2F00F35034 /* Better.mlmodel */,
 				4C3D36BF29A8214000F35034 /* Preview Content */,
 			);
 			path = BetterRest;
@@ -62,6 +66,7 @@
 		4C3D36BF29A8214000F35034 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				4C3D36C729A82F2700F35034 /* Better.mlmodel */,
 				4C3D36C029A8214000F35034 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -139,6 +144,7 @@
 			files = (
 				4C3D36BC29A8213F00F35034 /* ContentView.swift in Sources */,
 				4C3D36BA29A8213F00F35034 /* BetterRestApp.swift in Sources */,
+				4C3D36C829A82F2800F35034 /* Better.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
